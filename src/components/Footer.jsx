@@ -1,6 +1,8 @@
 export default function Footer() {
-  return <footer>
-    <small>&copy; Copyright by Gevork Manukyan. All rights reserved.</small>
-    <small>Last checked limits: 17 days ago</small>
-  </footer>;
+  return (
+    <footer className="footer">
+      <small>&copy; Copyright by Gevork Manukyan. All rights reserved.</small>
+      <small>Last checked limits: 17 days ago</small>
+    </footer>
+  );
 }
