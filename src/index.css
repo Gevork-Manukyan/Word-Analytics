@@ -62,6 +62,7 @@
     font: inherit;
     padding: 30px 40px;
     font-size: 22px;
+    word-wrap: break-word;
   }
   
   .textarea::placeholder {
