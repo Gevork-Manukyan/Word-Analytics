@@ -1,8 +1,10 @@
+import { INSTAGRAM_MAX_CHARACTERS, FACEBOOK_MAX_CHARACTERS } from "../lib/constants"; 
+
 export default function Stats({ text }) {
   const numberOfCharacters = text.length;
-  const instagramCharactersLeft = numberOfCharacters > 280 ? 0 : 280 - numberOfCharacters;
+  const instagramCharactersLeft = numberOfCharacters > INSTAGRAM_MAX_CHARACTERS ? 0 : INSTAGRAM_MAX_CHARACTERS - numberOfCharacters;
   const instagramLimit = instagramCharactersLeft === 0;
-  const facebookCharactersLeft = numberOfCharacters > 2200 ? 0 : 2200 - numberOfCharacters;
+  const facebookCharactersLeft = numberOfCharacters > FACEBOOK_MAX_CHARACTERS ? 0 : FACEBOOK_MAX_CHARACTERS - numberOfCharacters;
   const facebookLimit = facebookCharactersLeft === 0;
   const numberOfWords = text.split(' ').filter((word) => word !== "").length;
 
