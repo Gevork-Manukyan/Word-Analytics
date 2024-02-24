@@ -1,8 +1,10 @@
-# React + Vite
+# Word Analytics
+Word Analytics is a user-friendly web application developed in React for precise word and character counting. Seamlessly track the number of characters and words typed in real time. Additionally, the application includes dedicated features to track character limits for Instagram and Facebook, ensuring your social media posts are tailored perfectly.
+## Features
+- Character Counter
+- Word Counter
+- Character Counter for Instagram
+- Character Counter for Facebook
+- Input Sanitation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 1](https://github.com/Gevork-Manukyan/word-analytics/assets/68621339/fd348a9c-149e-498b-96e8-76a96efae792)
